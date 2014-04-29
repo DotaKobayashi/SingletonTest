@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  SingletonTest
 //
-//  Created by 小林堂太 on 2014/04/29.
+//  Created by dota.kobayashi on 2014/04/29.
 //  Copyright (c) 2014年 dota.kobayashi. All rights reserved.
 //
 

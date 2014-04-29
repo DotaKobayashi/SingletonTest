@@ -2,17 +2,37 @@
 //  AppDelegate.m
 //  SingletonTest
 //
-//  Created by 小林堂太 on 2014/04/29.
+//  Created by dota.kobayashi on 2014/04/29.
 //  Copyright (c) 2014年 dota.kobayashi. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SingletonOld.h"
+#import "Singleton.h"
+#import "Singleton2.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    id o1 = [SingletonOld sharedInstance];
+    [SingletonOld sharedInstance];
+    [[SingletonOld alloc] init];
+    id o2 = [o1 copy];
+    
+    
+    id o3 = [Singleton sharedInstance];
+    [Singleton sharedInstance];
+    [[Singleton alloc] init];
+    id o4 = [o3 copy];
+
+    id o5 = [Singleton2 sharedInstance];
+    [Singleton2 new];
+    [[Singleton2 alloc]init];
+    id o6 = [o5 copy];
+    
     return YES;
 }
 							

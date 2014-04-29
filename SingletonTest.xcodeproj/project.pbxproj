@@ -13,8 +13,6 @@
 		2BE42B0B190F99C5003C87B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE42B09190F99C5003C87B4 /* InfoPlist.strings */; };
 		2BE42B0D190F99C5003C87B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B0C190F99C5003C87B4 /* main.m */; };
 		2BE42B11190F99C5003C87B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B10190F99C5003C87B4 /* AppDelegate.m */; };
-		2BE42B14190F99C5003C87B4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE42B12190F99C5003C87B4 /* Main_iPhone.storyboard */; };
-		2BE42B17190F99C5003C87B4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE42B15190F99C5003C87B4 /* Main_iPad.storyboard */; };
 		2BE42B1A190F99C5003C87B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B19190F99C5003C87B4 /* ViewController.m */; };
 		2BE42B1C190F99C5003C87B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE42B1B190F99C5003C87B4 /* Images.xcassets */; };
 		2BE42B23190F99C6003C87B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE42B22190F99C6003C87B4 /* XCTest.framework */; };
@@ -22,6 +20,9 @@
 		2BE42B25190F99C6003C87B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE42B04190F99C5003C87B4 /* UIKit.framework */; };
 		2BE42B2D190F99C6003C87B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE42B2B190F99C6003C87B4 /* InfoPlist.strings */; };
 		2BE42B2F190F99C6003C87B4 /* SingletonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B2E190F99C6003C87B4 /* SingletonTestTests.m */; };
+		2BE42B3A190F9A50003C87B4 /* SingletonOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B39190F9A50003C87B4 /* SingletonOld.m */; };
+		2BE42B3D190FAFCF003C87B4 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B3C190FAFCF003C87B4 /* Singleton.m */; };
+		2BE42B40190FB2DE003C87B4 /* Singleton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE42B3F190FB2DE003C87B4 /* Singleton2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,6 @@
 		2BE42B0E190F99C5003C87B4 /* SingletonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingletonTest-Prefix.pch"; sourceTree = "<group>"; };
 		2BE42B0F190F99C5003C87B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BE42B10190F99C5003C87B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BE42B13190F99C5003C87B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2BE42B16190F99C5003C87B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		2BE42B18190F99C5003C87B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2BE42B19190F99C5003C87B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2BE42B1B190F99C5003C87B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,12 @@
 		2BE42B2A190F99C6003C87B4 /* SingletonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingletonTestTests-Info.plist"; sourceTree = "<group>"; };
 		2BE42B2C190F99C6003C87B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BE42B2E190F99C6003C87B4 /* SingletonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTestTests.m; sourceTree = "<group>"; };
+		2BE42B38190F9A50003C87B4 /* SingletonOld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonOld.h; sourceTree = "<group>"; };
+		2BE42B39190F9A50003C87B4 /* SingletonOld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonOld.m; sourceTree = "<group>"; };
+		2BE42B3B190FAFCF003C87B4 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		2BE42B3C190FAFCF003C87B4 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		2BE42B3E190FB2DE003C87B4 /* Singleton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton2.h; sourceTree = "<group>"; };
+		2BE42B3F190FB2DE003C87B4 /* Singleton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +121,16 @@
 			children = (
 				2BE42B0F190F99C5003C87B4 /* AppDelegate.h */,
 				2BE42B10190F99C5003C87B4 /* AppDelegate.m */,
-				2BE42B12190F99C5003C87B4 /* Main_iPhone.storyboard */,
-				2BE42B15190F99C5003C87B4 /* Main_iPad.storyboard */,
 				2BE42B18190F99C5003C87B4 /* ViewController.h */,
 				2BE42B19190F99C5003C87B4 /* ViewController.m */,
 				2BE42B1B190F99C5003C87B4 /* Images.xcassets */,
 				2BE42B07190F99C5003C87B4 /* Supporting Files */,
+				2BE42B38190F9A50003C87B4 /* SingletonOld.h */,
+				2BE42B39190F9A50003C87B4 /* SingletonOld.m */,
+				2BE42B3B190FAFCF003C87B4 /* Singleton.h */,
+				2BE42B3C190FAFCF003C87B4 /* Singleton.m */,
+				2BE42B3E190FB2DE003C87B4 /* Singleton2.h */,
+				2BE42B3F190FB2DE003C87B4 /* Singleton2.m */,
 			);
 			path = SingletonTest;
 			sourceTree = "<group>";
@@ -231,9 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE42B17190F99C5003C87B4 /* Main_iPad.storyboard in Resources */,
 				2BE42B1C190F99C5003C87B4 /* Images.xcassets in Resources */,
-				2BE42B14190F99C5003C87B4 /* Main_iPhone.storyboard in Resources */,
 				2BE42B0B190F99C5003C87B4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE42B40190FB2DE003C87B4 /* Singleton2.m in Sources */,
 				2BE42B1A190F99C5003C87B4 /* ViewController.m in Sources */,
 				2BE42B11190F99C5003C87B4 /* AppDelegate.m in Sources */,
 				2BE42B0D190F99C5003C87B4 /* main.m in Sources */,
+				2BE42B3A190F9A50003C87B4 /* SingletonOld.m in Sources */,
+				2BE42B3D190FAFCF003C87B4 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,22 +294,6 @@
 				2BE42B0A190F99C5003C87B4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2BE42B12190F99C5003C87B4 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BE42B13190F99C5003C87B4 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		2BE42B15190F99C5003C87B4 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BE42B16190F99C5003C87B4 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		2BE42B2B190F99C6003C87B4 /* InfoPlist.strings */ = {
